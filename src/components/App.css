@@ -1,0 +1,37 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: Roboto, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+.wrapper {
+  margin-top: 100px;
+  margin-bottom: 75px;
+}
+
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    margin-bottom: 10px;
+  }
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.toastify.on {
+  z-index: 1000;
+}
+
+.app-border {
+  border: 1px solid #e9eced;
+}
+

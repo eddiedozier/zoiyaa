@@ -1,0 +1,75 @@
+.cover-img {
+    background: url(https://zoiyaa.nyc3.digitaloceanspaces.com/assets/img/home1.jpg) 50% 50% no-repeat;
+}
+
+.main-search {
+    border-radius: initial;
+    border: none;
+}
+
+#zip-input {
+    border-left: 1px solid #ccc;
+    margin-right: 30px;
+    border-radius: 2px;
+}
+
+.zip-input {
+    padding-left: 0;
+}
+
+.service-input {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#service-input {
+    border-radius: 2px;
+}
+
+.search-box {
+    background-color: white;
+    padding: 10px 20px 10px 10px;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+.get-started-btn {
+    margin-top: 5px;
+}
+
+#headline-text {
+    margin-bottom: 1em;
+}
+
+@media (max-width: 767px){
+    .search-box {
+        background-color: transparent;
+    }
+    .zip-input  {
+        padding-right: 0;
+    }
+    .main-search {
+        margin-bottom: 10px;
+    }
+    .get-started-btn {
+        width: 100%;
+    }
+    .getting-started-container {
+        padding: 0;
+    }
+    #headline-text {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 767px){
+    .btn-lg {
+        padding: 8px 26px 6px;
+    }
+}
+
+@media (min-width: 1440px){
+    .get-started-btn {
+        margin-left: 10px;
+    }
+}

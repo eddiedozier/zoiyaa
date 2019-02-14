@@ -1,0 +1,12 @@
+.logo-dark {
+    width: 120px;
+}
+
+.name-space {
+    margin-left: 10px;
+}
+
+.dropdown-item.active {
+    background-color: white;
+    color: #999999;
+}
